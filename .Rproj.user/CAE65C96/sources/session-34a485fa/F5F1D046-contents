@@ -2,7 +2,8 @@
 title: "About"
 format: html
 editor: visual
-about: jolla
+about: 
+  template: jolla
 ---
 
 ## Quarto
