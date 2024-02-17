@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "NikhilsWebsite"
+  navbar:
+    left:
+    - about.qmd
+    - god.qmd
+    
+    
+    
+
+    
+format:
+  html:
+    theme: sketchy
