@@ -10,9 +10,7 @@ website:
     - god.qmd
     
     
-    
 
-    
 format:
   html:
     theme: sketchy
