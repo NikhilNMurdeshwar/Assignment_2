@@ -11,20 +11,6 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Quarto also enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
-  },
-  {
-    "objectID": "about.html#quarto",
-    "href": "about.html#quarto",
-    "title": "About",
-    "section": "",
-    "text": "Quarto also enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
-  },
-  {
-    "objectID": "about.html#running-code",
-    "href": "about.html#running-code",
-    "title": "About",
-    "section": "Running Code",
-    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nhe echo: false option disables the printing of code (only output is displayed)."
+    "text": "Hello, I’m Nikhil Narendra Murdeshwar, currently pursuing a master’s degree in Data Analytics Engineering. I completed my graduation in 2021 and gained valuable experience through a two-year stint at ITC Infotech Limited. My professional journey has fueled my passion for data analytics and technology.\nBeyond the world of data, I find joy and excitement in the realm of sports. Soccer, table tennis, and badminton are not just games for me; they’re sources of inspiration and dedication. Whether on the field or behind the data analytics tools, I strive for excellence and continuous improvement."
   }
 ]
