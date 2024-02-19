@@ -1,6 +1,10 @@
 ---
 title: "About"
 format: html
+html:
+  Social-Media:
+  - text: LINKED-IN
+    href: https://www.linkedin.com/in/nikhil-narendra-murdeshwar-8323761b0/
 editor: visual
 about: 
   template: jolla
