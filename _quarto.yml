@@ -14,4 +14,4 @@ website:
 
 format:
   html:
-    theme: zephyr
+    theme: sandstone

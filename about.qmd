@@ -1,10 +1,6 @@
 ---
-title: "About"
+title: "INTRODUCTION"
 format: html
-html:
-  Social-Media:
-  - text: LINKED-IN
-    href: https://www.linkedin.com/in/nikhil-narendra-murdeshwar-8323761b0/
 editor: visual
 about: 
   template: jolla
@@ -15,3 +11,11 @@ about:
 **Hello, I'm Nikhil Narendra Murdeshwar, currently pursuing a master's degree in Data Analytics Engineering. I completed my graduation in 2021 and gained valuable experience through a two-year stint at ITC Infotech Limited. My professional journey has fueled my passion for data analytics and technology.**
 
 **Beyond the world of data, I find joy and excitement in the realm of sports. Soccer, table tennis, and badminton are not just games for me they're sources of inspiration and dedication. Whether on the field or behind the data analytics tools, I strive for excellence and continuous improvement.**
+
+**Social-Media** :
+
+-   **LINKED_IN** : <https://www.linkedin.com/in/nikhil-narendra-murdeshwar-8323761b0/>
+
+-   **INSTAGRAM**: <https://www.instagram.com/_ni_killl/>
+
+-   **Facebook** : <https://www.facebook.com/nikhil.murdeshwar.7/>
