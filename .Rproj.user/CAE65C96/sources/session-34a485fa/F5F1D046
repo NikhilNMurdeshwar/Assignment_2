@@ -3,7 +3,7 @@
     "path": "C:/Users/luffy/OneDrive/Desktop/Assignment_2/about.qmd",
     "project_path": "about.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2981109915",
     "contents": "",
     "dirty": false,
     "created": 1708188327943.0,
@@ -19,16 +19,16 @@
         "scrollLine": "0",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "150:0",
+        "rmdVisualModeLocation": "166:0",
         "ignored_words": "Narendra,Nikhil,Murdeshwar,Infotech\n",
         "docOutlineSize": "110"
     },
     "folds": "",
-    "lastKnownWriteTime": 1708303500,
+    "lastKnownWriteTime": 1708303634,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1708303500892,
+    "last_content_update": 1708303634252,
     "read_only": false,
     "read_only_alternatives": []
 }
