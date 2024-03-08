@@ -5,8 +5,7 @@ Dummy1:
   template: jolla
 ---
 
-![](images/MIDtermBadGraph.jpg)
----
+## ![](images/MIDtermBadGraph.jpg)
 
 This graph, which represents the civilian unemployment rate over time, has a few issues that could potentially mislead or confuse the viewer. Here are some points of criticism:
 
