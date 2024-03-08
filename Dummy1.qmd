@@ -7,7 +7,7 @@ Dummy1:
 
 ## ![](images/MIDtermBadGraph.jpg)
 
-This graph, which represents the civilian unemployment rate over time, has a few issues that could potentially mislead or confuse the viewer. Here are some points of criticism:
+**This graph, which represents the civilian unemployment rate over time, has a few issues that could potentially mislead or confuse the viewer. Here are some points of criticism:**
 
 1.  **Scale Discrepancy**: There are multiple lines representing different demographic groups, but there is no legend explaining what each line represents. This makes it difficult to determine which line corresponds to which group.
 
