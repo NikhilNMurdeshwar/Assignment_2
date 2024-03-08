@@ -2,3 +2,89 @@
 title: "Codes of Redesign 1 and 2"
 editor: visual
 ---
+
+**Redesign_1 Code:**
+
+```{r}
+library(ggplot2)
+library(scales)
+library(lubridate)
+library(plotly)
+
+# Assuming 'df' is your dataframe and it has been read from the Excel file
+df = read.csv("C:/Users/luffy/OneDrive/Desktop/MidTerm/StatMidtermDATASET.csv")
+head(df)
+str(df)
+# Convert the 'Month' column to Date type if it's not already
+df$Month <- as.Date(df$Month, format = "%d-%m-%Y")
+
+# Using ggplot2 to create a line plot
+p <- ggplot(data = df, aes(x = Month) )+
+  geom_line(aes(y = Total, color = "Total")) +
+  geom_line(aes(y = Men.20.years.and.over , color = "Men 20+")) +
+  geom_line(aes(y = Women.20.years.and.over, color = "Women 20+")) +
+  geom_line(aes(y = X16.to.19.years.old, color = "Youth 16-19")) +
+  geom_line(aes(y = White, color = "White")) +
+  geom_line(aes(y = Black.or.African.American, color = "Black")) +
+  geom_line(aes(y = Asian, color = "Asian")) +
+  geom_line(aes(y =  Hispanic.or.Latino , color = "Hispanic/Latino")) +
+  scale_color_manual(values = c("black", "blue", "red", "green", "cyan", "magenta", "yellow", "orange")) +
+  labs(title = "Civilian Unemployment Rate by Demographic (Seasonally Adjusted)",
+       x = "Year",
+       y = "Unemployment Rate (%)",
+       color = "Legend") +
+  scale_x_date(labels = date_format("%Y"), breaks = date_breaks("1 year"),limits = as.Date(c("2004-01-01", "2024-01-01")))+
+  theme_minimal() +
+  theme(legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        axis.text.x = element_text(angle = 45, hjust = 1))
+print
+# Convert the ggplot object to a plotly object
+p_interactive <- ggplotly(p)
+
+# Display the interactive plot
+p_interactive
+```
+
+**Redesign_2 Code:**
+
+```{r}
+library(ggplot2)
+library(scales)
+library(lubridate)
+library(plotly)
+
+# Assuming 'df' is your dataframe and it has been read from the Excel file
+df = read.csv("C:/Users/luffy/OneDrive/Desktop/MidTerm/StatMidtermDATASET.csv")
+head(df)
+str(df)
+# Convert the 'Month' column to Date type if it's not already
+df$Month <- as.Date(df$Month, format = "%d-%m-%Y")
+
+# Using ggplot2 to create a line plot
+p <- ggplot(data = df, aes(x = Month) )+
+  geom_point(aes(y = Total, color = "Total")) +
+  geom_point(aes(y = Men.20.years.and.over , color = "Men 20+")) +
+  geom_point(aes(y = Women.20.years.and.over, color = "Women 20+")) +
+  geom_point(aes(y = X16.to.19.years.old, color = "Youth 16-19")) +
+  geom_point(aes(y = White, color = "White")) +
+  geom_point(aes(y = Black.or.African.American, color = "Black")) +
+  geom_point(aes(y = Asian, color = "Asian")) +
+  geom_point(aes(y =  Hispanic.or.Latino , color = "Hispanic/Latino")) +
+  scale_color_manual(values = c("black", "blue", "red", "green", "cyan", "magenta", "yellow", "orange")) +
+  labs(title = "Civilian Unemployment Rate by Demographic (Seasonally Adjusted)",
+       x = "Year",
+       y = "Unemployment Rate (%)",
+       color = "Legend") +
+  scale_x_date(labels = date_format("%Y"), breaks = date_breaks("1 year"),limits = as.Date(c("2004-01-01", "2024-01-01")))+
+  theme_minimal() +
+  theme(legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        axis.text.x = element_text(angle = 45, hjust = 1))
+print
+# Convert the ggplot object to a plotly object
+p_interactive <- ggplotly(p)
+
+# Display the interactive plot
+p_interactive
+```
