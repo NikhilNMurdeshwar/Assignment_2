@@ -2,3 +2,7 @@
 title: "REFERENCES"
 editor: visual
 ---
+
+**Resources Used:**
+
+<https://www.bls.gov/charts/employment-situation/civilian-unemployment-rate.htm>
