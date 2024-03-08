@@ -1,4 +1,31 @@
 ---
-title: "Assignment_1"
+title: "BAD GRAPH DESCRIPTION"
 editor: visual
+Dummy1:
+  template: jolla
 ---
+
+![](images/MIDtermBadGraph.jpg)
+---
+
+This graph, which represents the civilian unemployment rate over time, has a few issues that could potentially mislead or confuse the viewer. Here are some points of criticism:
+
+1.  **Scale Discrepancy**: There are multiple lines representing different demographic groups, but there is no legend explaining what each line represents. This makes it difficult to determine which line corresponds to which group.
+
+2.  **Color Choice**: The choice of colors could be better. Some lines are in very similar shades, making it hard to differentiate between them, especially for individuals with color vision deficiencies.
+
+3.  **Vertical Axis Scale**: The graph has a very sharp spike around 2020, which could be indicative of a major economic event (such as the COVID-19 pandemic). However, the scale of the y-axis exaggerates this spike. A smaller scale would give a more accurate visual representation of the changes over time.
+
+4.  **Data Clarity**: The graph displays multiple data series on a single chart, which can be confusing without clear differentiation and explanation.
+
+5.  **Axis Labeling**: The x-axis is labeled with years, but there are no markers indicating the months or quarters, which makes it harder to pinpoint when changes occurred within a year.
+
+6.  **Missing Context**: There is no context provided for the grey shaded areas. These areas might represent periods of economic downturn or recession, but without a clear legend or note, the viewer can only guess their significance.
+
+7.  **No Data Points**: The graph lacks clear data points or markers. Including these could improve readability, allowing viewers to understand the exact values at specific times.
+
+8.  **Title Clarity**: The title is somewhat descriptive but does not specify the geographic scope of the data (presumably the United States, given the source).
+
+9.  **Source Placement**: The source of the data is placed well, but it would be better if it included an accessible date to understand when the data was last updated or the period it covers.
+
+These issues can impact the viewer's ability to understand the data accurately and should be addressed for better clarity and communication of the information.
