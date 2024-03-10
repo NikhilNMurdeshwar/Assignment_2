@@ -3,7 +3,7 @@ title: "REDESIGN_2"
 editor: visual
 ---
 
-![](images/Third Graph.png)
+![](images/Third%20Graph.png)
 
 **Here are some points that will make us understand why this graph is better than the bad graph we saw earlier:**
 
@@ -19,6 +19,6 @@ editor: visual
 
 6.  **Contextual Information**: The inclusion of contextual information, such as highlighting specific events, helps explain spikes or drops in the data, making The graph more informative.
 
-7.  **Aesthetic Appeal**: Thw graph is more understandable simply because it is aesthetically more pleasing. Good visual design can guide the viewer’s eye and make the information easier to absorb.
+7.  **Aesthetic Appeal**: The graph is more understandable simply because it is aesthetically more pleasing. Good visual design can guide the viewer’s eye and make the information easier to absorb.
 
 8.  **Zoom and Time Frame**: The time frame presented in the graph might be more relevant to the context of the data, helping to tell a clearer story. Additionally, if The graph allows for zooming in on specific time periods, this could aid in understanding short-term variations.
